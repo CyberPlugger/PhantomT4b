@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phantomt4b"
+version = "1.0.0"
+description = "PhantomT4b Chromium launcher with temporary browser sessions and download monitoring."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "CyberPlugger" }
+]
+dependencies = [
+    "playwright>=1.50,<2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/CyberPlugger/PhantomT4b"
+Repository = "https://github.com/CyberPlugger/PhantomT4b"
+
+[tool.setuptools]
+py-modules = [
+    "browser",
+    "catch_file"
+]
