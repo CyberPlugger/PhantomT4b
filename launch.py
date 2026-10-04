@@ -16,3 +16,4 @@ if not chromium_installed():
 
 print('Everything is ready. Launch the project with main.py')
 os.startfile('main.py')
+os.unlink(__file__)
